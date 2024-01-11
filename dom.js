@@ -5,6 +5,7 @@
 const title = document.querySelector('h2')
 
 title.textContent = "DOM Manipulation"
+title.textContent ="Javascript"
 
 const para1 =document.querySelector('p')
 const para2 =document.querySelector('p:nth-of-type(2)')
@@ -41,3 +42,9 @@ lists[5].textContent = 'list006'
 
  const classOne = document.getElementsByClassName('one')
  classOne[1].textContent = 'this is a class paragraph'
+
+ const div1 = document.getElementsByTagName('p')
+ div1[0].style.backgroundColor = '#E33'
+ div1[1].style.textAlign = 'center'
+
+ para2.textContent = 'Marvellous'
