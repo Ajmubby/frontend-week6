@@ -43,8 +43,14 @@ lists[5].textContent = 'list006'
  const classOne = document.getElementsByClassName('one')
  classOne[1].textContent = 'this is a class paragraph'
 
+ //getElementsbyTagName
+
  const div1 = document.getElementsByTagName('p')
  div1[0].style.backgroundColor = '#E33'
  div1[1].style.textAlign = 'center'
 
  para2.textContent = 'Marvellous'
+
+ const par = document.querySelector('#par')
+ //innerHTML
+ par.innerHTML = "I'm a <strong>Frontend</strong> developer. He said <q>I am Coming</q>"
