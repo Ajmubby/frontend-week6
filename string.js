@@ -3,6 +3,8 @@ const nursery = rhyme.textContent
 
 const lists = document.querySelectorAll('li')
 
+//Methods
+
 //length of a string
 lists[0].textContent += nursery.length
 
