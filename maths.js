@@ -7,7 +7,7 @@ let b = 3;
 
 
 let z = x + y
-math[0].innerHTML = 'x + y is: ' + z
+math[0].innerHTML = 'x + y is: ' + z 
 
 //division
 let c = a/y
